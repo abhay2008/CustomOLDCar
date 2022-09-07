@@ -1,6 +1,6 @@
 AFRAME.registerComponent("car-model",{
     schema:{
-        modelRef:{type:"string", default:"../assets/car/car.glb"}
+        modelRef:{type:"string", default:"assets/car/car.glb"}
     },
 
     init: function(){
